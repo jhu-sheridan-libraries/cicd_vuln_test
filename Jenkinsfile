@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Hello there from the PR'
+        echo 'Hello there from the PR - via external readonly.'
       }
     }
   }
